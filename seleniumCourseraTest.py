@@ -20,8 +20,8 @@ class CourseraTest(unittest.TestCase):
     def testLogIn(self):
         '''test for log in'''
         driver = self.driver
-        email = "markojereb@yahoo.com"
-        password = "orbit247"
+        email = ""
+        password = ""
         logInXpath = "/html/body/div[2]/div/div/div[1]/div[1]/nav/div/div[2]/ul/li[2]/a"
         emailXpath = "/html/body/div[2]/div/div/div[1]/div[2]/div/div[3]/div/div/div/form/div[1]/div[1]/input"
         passwordXpath = "/html/body/div[2]/div/div/div[1]/div[2]/div/div[3]/div/div/div/form/div[1]/div[2]/input"
